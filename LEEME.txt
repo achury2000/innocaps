@@ -1,0 +1,6 @@
+INNOCAPS — sitio web (HTML + CSS + Three.js)
+Abrir: doble clic en index.html (Chrome/Edge). Para servirlo: npx serve .  (o python -m http.server)
+- La cápsula 3D (cuentas, núcleo con hojas y bayas, anillos y partículas) viaja por las secciones: se arma, fermenta y escala con el scroll.
+- Imágenes de las secciones extraídas de la presentación InnoCaps_Pitch_2026.
+- Código fuente 3D/animaciones en src/main.js (se empaqueta con esbuild: esbuild src/main.js --bundle --minify --format=iife --outfile=main.bundle.js).
+- Textos del equipo tomados del borrador local; datos de contacto de la presentación.

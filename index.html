@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InnoCaps — Biotecnología y encapsulación de precisión</title>
+<meta name="description" content="Transformamos biodiversidad, microbiología y ciencia aplicada en ingredientes funcionales de alto valor para la industria global.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 10 4 20 4c0 10-6 15-14 15M5 19c3-5 6-8 10-10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9V3M7.5 15h9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pill" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4" transform="rotate(-35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.5 8.5l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16M8 16v-4M12 16V8M16 16v-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-hand" viewBox="0 0 24 24"><path d="M3 12l5-4 4 2 4-2 5 4-5 5-3 1-3-1z M8 8l-1 8M16 8l1 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+</defs></svg>
+<div id="loader"><div class="ring"></div><span>INNOCAPS</span></div>
+<canvas id="gl"></canvas><div class="grain"></div><div class="cursor" id="cursor"></div>
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav"><a class="brand" href="#top"><img src="img/logo-x.png" alt=""><span>Inno<b>Caps</b></span></a>
+<nav><a href="#plataforma">Plataforma</a><a href="#problema">Problema</a><a href="#solucion">Solución</a><a href="#evidencia">Evidencia</a><a href="#pipeline">Pipeline</a><a href="#modelo">Modelo</a><a href="#equipo">Equipo</a></nav>
+<a class="btn mini magnet" href="#contacto">Contactar</a></header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero" data-cap='{"x":0.4,"y":0,"s":1.0,"asm":1,"mix":0,"core":1,"bub":0,"ring":1}'>
+ <div class="wrap hero-in">
+  <p class="eyebrow rv">PLATAFORMA BIOTECNOLÓGICA Y DE ENCAPSULACIÓN</p>
+  <h1 class="split">Transformamos <em>biodiversidad</em> en ingredientes funcionales de alto valor</h1>
+  <p class="lead rv">Microbiología, bioprospección y ciencia aplicada para la industria global: protegemos lo valioso, potenciamos lo funcional y llevamos la ciencia al mercado.</p>
+  <div class="chips rv"><span>Startup científica</span><span>B2B · Ingredientes</span><span>Nutrición · Salud · Cosmética</span></div>
+  <div class="cta rv"><a class="btn magnet" href="#solucion">Descubre la plataforma</a><a class="btn ghost magnet" href="#contacto">Hablemos</a></div>
+  <div class="trio rv"><div><svg><use href="#i-leaf"/></svg>Bioprospección</div><div><svg><use href="#i-flask"/></svg>Fermentación</div><div><svg><use href="#i-pill"/></svg>Microencapsulación</div></div>
+ </div>
+ <div class="hint">Mueve el cursor · el modelo 3D reacciona</div>
+ <div class="scroll"><i></i>Desliza</div>
+</section>
+
+<div class="marquee"><div class="track"><span>CIENCIA QUE PROTEGE</span><i>✦</i><span>INNOVACIÓN QUE TRANSFORMA</span><i>✦</i><span>IMPACTO QUE PERDURA</span><i>✦</i><span>CIENCIA QUE PROTEGE</span><i>✦</i><span>INNOVACIÓN QUE TRANSFORMA</span><i>✦</i><span>IMPACTO QUE PERDURA</span><i>✦</i></div></div>
+
+<!-- ARQUITECTURA -->
+<section id="plataforma" class="sec" data-cap='{"x":-0.62,"y":0.05,"s":0.62,"asm":0.85,"mix":0.25,"core":1,"bub":0,"ring":0.4}'>
+ <div class="wrap">
+  <p class="eyebrow rv">ARQUITECTURA CORPORATIVA</p>
+  <h2 class="rv">Dos unidades. <em>Una compañía.</em></h2>
+  <p class="sub rv">Ciencia que desarrolla. Tecnología que escala. Soluciones que transforman mercados.</p>
+  <div class="two">
+   <article class="card tilt rv"><div class="tag">UNIDAD 01</div><h3>LAB</h3><h4>Investigación, desarrollo e innovación</h4>
+    <p>Bioprospección, formulación y validación científica que alimenta cada producto de la compañía.</p>
+    <ul class="pills"><li>Bioprospección inteligente</li><li>Formulación avanzada</li><li>Validación científica</li><li>Innovación continua</li></ul>
+    <img class="par" data-s=".06" src="img/lab.jpg" alt="Laboratorio InnoCaps"></article>
+   <article class="card tilt rv d2"><div class="tag">UNIDAD 02</div><h3>BIO</h3><h4>Escalamiento y comercialización</h4>
+    <p>Transformamos la ciencia en productos reales, escalables y listos para el mercado.</p>
+    <ul class="pills"><li>Prototipos</li><li>Escalado</li><li>Ventas B2B</li></ul>
+    <img class="par" data-s="-.06" src="img/reactor.jpg" alt="Biorreactor"></article>
+  </div>
+  <div class="wibio card rv"><div><h3>Wi<b>Bío</b></h3><p>Portafolio de soluciones B2B · ingredientes funcionales microencapsulados para nutrición, alimentos, cuidado personal, suplementos y más. <strong>Ciencia lista para la industria.</strong></p></div><img src="img/wibio.jpg" alt="Productos WiBio"></div>
+ </div>
+</section>
+
+<!-- PROBLEMA -->
+<section id="problema" class="sec" data-cap='{"x":0.62,"y":0.1,"s":0.6,"asm":0.05,"mix":0,"core":0.5,"bub":0,"ring":0}'>
+ <div class="wrap">
+  <p class="eyebrow rv">EL PROBLEMA</p>
+  <h2 class="rv">La ciencia de ingredientes funcionales <em>no llega al mercado</em></h2>
+  <div class="grid4">
+   <article class="prob tilt rv"><span class="n">1</span><img src="img/jar.jpg" alt=""><h3>Biodiversidad <em>desaprovechada</em></h3><p>Miles de compuestos naturales con potencial funcional nunca se convierten en producto.</p></article>
+   <article class="prob tilt rv d1"><span class="n">2</span><img src="img/biocap.jpg" alt=""><h3>Baja <em>biodisponibilidad</em></h3><p>Los bioactivos pierden estabilidad y eficacia antes de llegar al consumidor.</p></article>
+   <article class="prob tilt rv d2"><span class="n">3</span><img src="img/supp.jpg" alt=""><h3>Innovación <em>sin evidencia</em></h3><p>El mercado innova en formas y empaques, no en el fondo científico que demuestra eficacia.</p></article>
+   <article class="prob tilt rv d3"><span class="n">4</span><img src="img/micro.jpg" alt=""><h3>Brecha <em>ciencia ↔ industria</em></h3><p>Entre el hallazgo de laboratorio y el escalamiento industrial hay un vacío que casi nadie cruza.</p></article>
+  </div>
+  <p class="bridge rv">En InnoCaps cerramos estas brechas con ciencia aplicada y encapsulación de precisión.</p>
+ </div>
+</section>
+
+<!-- SOLUCIÓN -->
+<section id="solucion" class="sol">
+ <div class="wrap"><p class="eyebrow rv">NUESTRA SOLUCIÓN</p><h2 class="rv">Plataforma integrada <em>de precisión</em></h2><p class="sub rv">De la biodiversidad al ingrediente escalable — mira cómo se arma la cápsula a medida que avanzas.</p></div>
+ <div class="steps wrap">
+  <div class="step" data-cap='{"x":0.5,"y":0,"s":0.95,"asm":0.04,"mix":0,"core":1,"bub":0,"ring":0}'><div class="stepc rv"><span class="num">01</span><img class="circ" src="img/s1.jpg" alt=""><h3>Bioprospección</h3><p>Identificación de matrices para bio-producción de compuestos funcionales.</p><ul><li>Selección inteligente</li><li>Biodiversidad colombiana</li><li>Trazabilidad de origen</li><li>Datos y ciencia aplicada</li></ul></div></div>
+  <div class="step" data-cap='{"x":0.5,"y":0,"s":1.1,"asm":1,"mix":0.1,"core":1,"bub":0,"ring":0.3}'><div class="stepc rv"><span class="num">02</span><img class="circ" src="img/s2.jpg" alt=""><h3>Encapsulación</h3><p>Nano-microencapsulación de precisión para protección, liberación y biodisponibilidad.</p><ul><li>Protección avanzada</li><li>Liberación controlada</li><li>Mayor estabilidad</li><li>Mejor biodisponibilidad</li></ul></div></div>
+  <div class="step" data-cap='{"x":0.5,"y":0,"s":1.1,"asm":1,"mix":1,"core":1,"bub":1,"ring":0.3}'><div class="stepc rv"><span class="num">03</span><img class="circ" src="img/s3.jpg" alt=""><h3>Fermentación</h3><p>Biofábricas microbianas y/o vegetales para moléculas de interés.</p><ul><li>Cepas y cultivos seleccionados</li><li>Fermentación eficiente</li><li>Parámetros controlados</li><li>Calidad y reproducibilidad</li></ul></div></div>
+  <div class="step" data-cap='{"x":0.5,"y":0,"s":1.35,"asm":1,"mix":0.55,"core":1,"bub":0.2,"ring":1}'><div class="stepc rv"><span class="num">04</span><img class="circ" src="img/s4.jpg" alt=""><h3>Escalamiento</h3><p>Producción industrial con aliados estratégicos y evidencia científica.</p><ul><li>Red de aliados especializados</li><li>Escalamiento eficiente</li><li>Evidencia científica</li><li>Soluciones listas para el mercado</li></ul></div></div>
+ </div>
+</section>
+
+<!-- EVIDENCIA -->
+<section id="evidencia" class="sec" data-cap='{"x":0.7,"y":-0.25,"s":0.5,"asm":1,"mix":0.4,"core":1,"bub":0,"ring":0}'>
+ <div class="wrap">
+  <p class="eyebrow rv">LA PRUEBA · CASO REAL</p>
+  <h2 class="rv">Encapsulación de <em>bioactivo funcional</em></h2>
+  <div class="two ev">
+   <article class="card rv">
+    <h3>Eficacia antioxidante</h3><h4>Resultados instrumentales</h4>
+    <p class="small">El 30% de la dosis del material nanoencapsulado alcanza el mismo efecto que el 100% del material libre.</p>
+    <svg class="chart" viewBox="0 0 420 260" id="chart">
+     <g stroke="rgba(255,255,255,.08)"><path d="M50 20H400M50 70H400M50 120H400M50 170H400M50 220H400"/></g>
+     <g fill="#7fa8a6" font-size="11"><text x="14" y="224">0</text><text x="8" y="174">25</text><text x="8" y="124">50</text><text x="8" y="74">75</text><text x="0" y="24">100</text><text x="62" y="244">1</text><text x="170" y="244">10</text><text x="262" y="244">30%</text><text x="368" y="244">100%</text></g>
+     <path class="free" d="M62 214 C130 208 200 190 270 150 S360 60 392 22" fill="none" stroke="#9fb0b0" stroke-width="2.5" stroke-linecap="round"/>
+     <path class="nano" d="M62 200 C110 190 150 120 215 54 S262 22 392 22" fill="none" stroke="#2dd4bf" stroke-width="3.5" stroke-linecap="round"/>
+     <line x1="262" y1="22" x2="262" y2="220" stroke="#8bd43a" stroke-dasharray="4 5" opacity=".7"/><circle class="dot" cx="262" cy="26" r="6" fill="#8bd43a"/>
+     <text x="272" y="46" fill="#8bd43a" font-size="12" font-weight="700">100% eficacia</text>
+     <g font-size="11"><circle cx="70" cy="270" r="0"/></g>
+    </svg>
+    <div class="legend"><span><i style="background:#2dd4bf"></i>Nanoencapsulado</span><span><i style="background:#9fb0b0"></i>Material libre</span></div>
+    <div class="big"><b data-count="70">0</b><span>% mejora en eficacia · mismo efecto, menor dosis</span></div>
+    <p class="foot">Método: DPPH · ABTS · CRAC. Resultados por análisis instrumental en laboratorio.</p>
+   </article>
+   <article class="card rv d2">
+    <h3>Estabilidad y liberación</h3><h4>Pruebas gastrointestinales in vitro</h4>
+    <p class="small">El nanoencapsulado protege el compuesto en condiciones gástricas y asegura una liberación eficaz en el intestino.</p>
+    <div class="bars">
+     <div class="bgrp"><h5>Estabilidad gástrica <small>(compuesto remanente)</small></h5>
+      <div class="bar"><label>Compuesto libre</label><div><i data-w="20" class="bad"></i></div><em>20%</em></div>
+      <div class="bar"><label>Nanoencapsulado</label><div><i data-w="95" class="good"></i></div><em>≥95%</em></div></div>
+     <div class="bgrp"><h5>Liberación intestinal <small>(compuesto liberado)</small></h5>
+      <div class="bar"><label>Compuesto libre</label><div><i data-w="25" class="bad"></i></div><em>25%</em></div>
+      <div class="bar"><label>Nanoencapsulado</label><div><i data-w="85" class="good"></i></div><em>≥85%</em></div></div>
+    </div>
+    <div class="callout"><svg><use href="#i-shield"/></svg><p><b>Protección + liberación eficaz.</b> El nanoencapsulado mantiene la estabilidad en el estómago y libera el compuesto de manera eficaz en el intestino.</p></div>
+    <p class="foot">Modelo in vitro dinámico · análisis por HPLC-UV · promedio de 3 réplicas independientes.</p>
+   </article>
+  </div>
+ </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline" class="sec" data-cap='{"x":-0.65,"y":0.1,"s":0.55,"asm":0.9,"mix":0.7,"core":1,"bub":0.6,"ring":0.2}'>
+ <div class="wrap">
+  <p class="eyebrow rv">PORTAFOLIO EN DESARROLLO</p>
+  <h2 class="rv">Nuestro <em>Pipeline</em></h2>
+  <p class="sub rv">Tres líneas de innovación que avanzan desde la ciencia hasta ingredientes listos para el mercado.</p>
+  <div class="grid3">
+   <article class="card pipe tilt rv"><span class="trl">MICROBIOME SERIES · TRL 2</span><img src="img/mb1.jpg" alt=""><ul><li>Nuevos ingredientes</li><li>Posbióticos</li></ul><p class="small">Pipeline en exploración y conceptualización.</p></article>
+   <article class="card pipe tilt rv d1"><span class="trl">MICROBIOME SERIES · TRL 4</span><img src="img/mb2.jpg" alt=""><ul><li>Consorcios microbianos</li><li>Pre – Pro – Pos bióticos de precisión</li></ul><p class="small">Caracterización de cepas y posbióticos en curso.</p></article>
+   <article class="card pipe tilt rv d2"><span class="trl lime">SCIENCE SERIES · TRL 6</span><img src="img/mb3.jpg" alt=""><ul><li>Basados en curcuminoides</li><li>Nitratos cardiovasculares</li><li>Antioxidantes hepatoprotectores</li><li>Ácidos orgánicos digestivos</li></ul></article>
+  </div>
+  <div class="trl-line" id="trl"><div class="fill"></div>
+   <div class="nodes"><b>1</b><b class="a">2</b><b>3</b><b class="a">4</b><b>5</b><b class="a l">6</b><b>7</b><b>8</b><b>9</b></div>
+   <div class="stg"><span>INVESTIGACIÓN</span><span>DESARROLLO</span><span>VALIDACIÓN</span><span>MERCADO</span></div></div>
+  <p class="bridge rv">Aquí se construye un flujo continuo de innovación que se valida paso a paso.</p>
+ </div>
+</section>
+
+<!-- MODELO -->
+<section id="modelo" class="sec" data-cap='{"x":0.66,"y":0.0,"s":0.55,"asm":1,"mix":0.15,"core":1,"bub":0,"ring":0.6}'>
+ <div class="wrap">
+  <p class="eyebrow rv">MODELO DE NEGOCIO</p>
+  <h2 class="rv">Tres vías de ingreso B2B <em>con potencial internacional</em></h2>
+  <p class="sub rv">Flexibles, complementarias y adaptadas a cada tipo de aliado o cliente.</p>
+  <div class="grid3">
+   <article class="card biz tilt rv"><img src="img/biz1.jpg" alt=""><span class="n">01</span><h3>Ingredientes funcionales</h3><p>Desarrollo y venta de ingredientes simpbióticos propios, listos para formulación (marcas B2B InnoCaps – Bio).</p><ul class="ck"><li>Ingredientes validados</li><li>Listos para formulación</li><li>Escalables globalmente</li></ul></article>
+   <article class="card biz tilt rv d1"><img src="img/biz2.jpg" alt=""><span class="n">02</span><h3>Desarrollo tecnológico</h3><p>Servicios I+D+i de fermentación, encapsulación y caracterización para terceros (InnoCaps – Lab to Bio).</p><ul class="ck"><li>Soluciones a medida</li><li>Tecnología aplicada</li><li>Co-desarrollo ágil</li></ul></article>
+   <article class="card biz tilt rv d2"><img src="img/biz3.jpg" alt=""><span class="n lime">03</span><h3>Licenciamiento</h3><p>Transferencia tecnológica y licencias de procesos y formulaciones de la plataforma InnoCaps (Lab).</p><ul class="ck"><li>Modelos flexibles</li><li>Regalías escalables</li><li>Alianzas estratégicas</li></ul></article>
+  </div>
+  <h3 class="mini rv">¿Dónde encaja cada cliente?</h3>
+  <div class="chips big rv"><span>Nutrición funcional</span><span>Salud y suplementos</span><span>Alimentos y bebidas</span><span>Cosmética y cuidado</span><span>Salud animal y veterinaria</span><span>Agronegocios y biotecnología</span><span>Farmacéutica y OTC</span></div>
+ </div>
+</section>
+
+<!-- COMPETENCIA -->
+<section class="sec" data-cap='{"x":-0.62,"y":-0.05,"s":0.55,"asm":1,"mix":0.3,"core":1,"bub":0,"ring":0.2}'>
+ <div class="wrap">
+  <p class="eyebrow rv">COMPETENCIA Y POR QUÉ NOSOTROS</p>
+  <h2 class="rv">Conocemos a los gigantes — <em>competimos por un espacio que ellos no ocupan</em></h2>
+  <div class="two">
+   <article class="card rv"><h3>El campo de juego</h3><div class="giants"><span>CHR·HANSEN</span><span>novonesis</span><span>DSM-FIRMENICH</span><span>KERRY</span><span>ADM</span><span>Cargill</span></div><p>Escala global, portafolios cerrados y estandarizados, ciclos largos, poco acceso a biodiversidad local y baja flexibilidad para <strong>co-desarrollo a la medida</strong>.</p></article>
+   <article class="card rv d2"><h3>Nuestro sistema táctico</h3><ul class="ck big"><li>Integración vertical: bioprospección + biofabricación + encapsulación en un solo flujo.</li><li>Acceso a biodiversidad colombiana como fuente de activos diferenciados.</li><li>Co-desarrollo ágil y a la medida para marcas B2B, con evidencia científica propia.</li><li>Modelo capital-ligero vía red de aliados especializados.</li></ul></article>
+  </div>
+  <div class="diffs rv"><div>Flexibilidad real<br>para co-innovar</div><div>Ciencia aplicada<br>y basada en resultados</div><div>Tiempos de desarrollo<br>más cortos y adaptables</div><div>Biodiversidad<br>única y sostenible</div><div>Soluciones a la medida<br>del desafío y del mercado</div></div>
+  <h3 class="mini rv">Tracción real — co-desarrollando con evidencia científica</h3>
+  <div class="chips big rv"><span>Nacional de Chocolates</span><span>Arum</span><span>Biotecno</span><span>Aitia</span><span>Colorquímica</span></div>
+ </div>
+</section>
+
+<!-- CÓMO TRABAJAMOS -->
+<section class="sec" data-cap='{"x":0.6,"y":0.0,"s":0.7,"asm":1,"mix":0.2,"core":1,"bub":0,"ring":1}'>
+ <div class="wrap">
+  <p class="eyebrow rv">NUESTRO MODELO DE COLABORACIÓN</p>
+  <h2 class="rv">Cómo trabajamos: <em>tres niveles de relación</em></h2>
+  <p class="sub rv">Flexibilidad y escalabilidad según tus necesidades.</p>
+  <div class="levels">
+   <article class="lvl card rv"><span class="nv">NIVEL 1</span><h3>Proyecto Piloto</h3><p>Desarrollo conjunto y prueba de concepto en un área específica. Formulación de productos WiBio adaptados a tus necesidades.</p><div class="deliv"><small>ENTREGABLE</small>Producto piloto validado con desempeño comprobado.</div></article>
+   <article class="lvl card rv d1"><span class="nv">NIVEL 2</span><h3>Alianza Tecnológica</h3><p>Colaboración estructurada en I+D+i para desarrollar productos WiBio de mayor valor diferencial. Formulación, optimización y escalamiento.</p><div class="deliv"><small>ENTREGABLE</small>Producto optimizado listo para su escalamiento.</div></article>
+   <article class="lvl card rv d2"><span class="nv lime">NIVEL 3</span><h3>Suministro de Productos WiBio</h3><p>Suministro continuo de productos WiBio desarrollados para su marca, portafolio o canal. Producción escalada, control de calidad y soporte técnico.</p><div class="deliv"><small>ENTREGABLE</small>Suministro confiable con calidad garantizada.</div></article>
+  </div>
+  <p class="bridge rv">Desde una idea hasta el mercado, te acompañamos en cada paso del camino. No invertimos en tu empresa: tú accedes a productos WiBio listos para transformar tu negocio.</p>
+ </div>
+</section>
+
+<!-- EQUIPO -->
+<section id="equipo" class="sec" data-cap='{"x":0,"y":0.35,"s":0.4,"asm":1,"mix":0,"core":1,"bub":0,"ring":0}'>
+ <div class="wrap">
+  <p class="eyebrow rv">EQUIPO</p>
+  <h2 class="rv">Nuestros <em>profesionales</em></h2>
+  <p class="sub rv">Un equipo multidisciplinario de expertos comprometidos con la excelencia científica y la innovación.</p>
+  <div class="team">
+   <article class="p tilt rv"><i>EC</i><h3>Elkin Dario Castellón</h3><b>CEO · Director Científico Fundador</b><p>Químico, Magíster en Química Analítica y Doctor en Agroquímica.</p></article>
+   <article class="p tilt rv d1"><i>NM</i><h3>Nathalia Marín</h3><b>Doctora en Ciencia e Ingeniería de Materiales</b><p>Especialista en nanomateriales y caracterización avanzada.</p></article>
+   <article class="p tilt rv d2"><i>CC</i><h3>Carolina Chegwin Angarita</h3><b>Doctora en Ciencias Química</b><p>Química, magíster y Doctora en Ciencias Química.</p></article>
+   <article class="p tilt rv"><i>SN</i><h3>Sandra Navarro</h3><b>Doctora en Biotecnología</b><p>Experta en procesos biotecnológicos y fermentación.</p></article>
+   <article class="p tilt rv d1"><i>DV</i><h3>Diego F. Villanueva Mejía</h3><b>Doctor en Biotecnología</b><p>Investigador en bioprocesos y optimización.</p></article>
+   <article class="p tilt rv d2"><i>MA</i><h3>María Alejandra Arango</h3><b>Biotecnóloga y Magíster en Ingeniería</b><p>Énfasis en procesos biotecnológicos.</p></article>
+   <article class="p tilt rv"><i>CS</i><h3>Carlos Salazar</h3><b>Ingeniero Electrónico y Matemático</b><p>Especialista en modelado computacional y automatización.</p></article>
+  </div>
+ </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contact" data-cap='{"x":0.5,"y":0.0,"s":1.1,"asm":1,"mix":0.6,"core":1,"bub":0.3,"ring":1}'>
+ <div class="wrap">
+  <h2 class="rv">Más que un proveedor, somos tu <em>aliado estratégico</em> en I+D+i</h2>
+  <p class="lead rv">Gracias por confiar en la ciencia como motor de transformación. Construyamos juntos el futuro de la nutrición y el bienestar.</p>
+  <div class="cgrid">
+   <form class="card rv" onsubmit="event.preventDefault();const f=new FormData(this);location.href='mailto:contacto@innocaps.com.co?subject='+encodeURIComponent('Consulta desde la web — '+f.get('n'))+'&body='+encodeURIComponent(f.get('m')+'\n\n'+f.get('e'));">
+    <h3>Comienza tu consulta</h3>
+    <label>Nombre<input name="n" required placeholder="Tu nombre"></label><label>Correo<input name="e" type="email" required placeholder="tu@empresa.com"></label><label>Cuéntanos tu reto<textarea name="m" rows="4" required placeholder="¿Qué ingrediente quieres proteger, potenciar o escalar?"></textarea></label>
+    <button class="btn magnet" type="submit">Enviar consulta</button></form>
+   <div class="info rv d2"><div class="card"><small>WEB</small><a href="https://www.innocaps.com.co">www.innocaps.com.co</a><a href="mailto:contacto@innocaps.com.co">contacto@innocaps.com.co</a></div>
+    <div class="card"><small>CEO &amp; FOUNDER</small><b>Elkin Dario Castellón</b><a href="mailto:elkin.castellon@innocaps.com.co">elkin.castellon@innocaps.com.co</a></div>
+    <div class="card quote"><svg><use href="#i-leaf"/></svg><p>Estamos listos para co-crear, innovar y entregar productos WiBio que impulsen tu portafolio y tu impacto.</p></div></div>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="wrap"><a class="brand" href="#top"><img src="img/logo-x.png" alt=""><span>Inno<b>Caps</b></span></a><p>Biotecnología y encapsulación de precisión · Ciencia que protege. Innovación que transforma. Impacto que perdura.</p><small>© 2026 InnoCaps</small></div></footer>
+<script src="main.bundle.js"></script>
+</body></html>

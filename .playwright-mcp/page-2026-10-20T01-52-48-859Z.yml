@@ -1,0 +1,446 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: INNOCAPS
+  - banner [ref=e6]:
+    - link "InnoCaps" [ref=e7] [cursor=pointer]:
+      - /url: "#top"
+    - link "Contactar" [ref=e9] [cursor=pointer]:
+      - /url: "#contacto"
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: PLATAFORMA BIOTECNOLÓGICA Y DE ENCAPSULACIÓN
+        - heading "Transformamos biodiversidad en ingredientes funcionales de alto valor" [level=1] [ref=e14]:
+          - generic [ref=e15]: Transformamos
+          - emphasis [ref=e17]:
+            - generic [ref=e18]: biodiversidad
+          - generic [ref=e20]: en
+          - generic [ref=e22]: ingredientes
+          - generic [ref=e24]: funcionales
+          - generic [ref=e26]: de
+          - generic [ref=e28]: alto
+          - generic [ref=e30]: valor
+        - paragraph [ref=e32]: "Microbiología, bioprospección y ciencia aplicada para la industria global: protegemos lo valioso, potenciamos lo funcional y llevamos la ciencia al mercado."
+        - generic [ref=e33]:
+          - generic [ref=e34]: Startup científica
+          - generic [ref=e35]: B2B · Ingredientes
+          - generic [ref=e36]: Nutrición · Salud · Cosmética
+        - generic [ref=e37]:
+          - link "Descubre la plataforma" [ref=e38] [cursor=pointer]:
+            - /url: "#solucion"
+          - link "Hablemos" [ref=e39] [cursor=pointer]:
+            - /url: "#contacto"
+        - generic [ref=e40]:
+          - generic [ref=e41]: Bioprospección
+          - generic [ref=e44]: Fermentación
+          - generic [ref=e47]: Microencapsulación
+      - generic [ref=e50]: Mueve el cursor · el modelo 3D reacciona
+      - generic [ref=e51]: Desliza
+    - generic [ref=e54]:
+      - generic [ref=e55]: CIENCIA QUE PROTEGE
+      - generic [ref=e56]: ✦
+      - generic [ref=e57]: INNOVACIÓN QUE TRANSFORMA
+      - generic [ref=e58]: ✦
+      - generic [ref=e59]: IMPACTO QUE PERDURA
+      - generic [ref=e60]: ✦
+      - generic [ref=e61]: CIENCIA QUE PROTEGE
+      - generic [ref=e62]: ✦
+      - generic [ref=e63]: INNOVACIÓN QUE TRANSFORMA
+      - generic [ref=e64]: ✦
+      - generic [ref=e65]: IMPACTO QUE PERDURA
+      - generic [ref=e66]: ✦
+    - generic [ref=e68]:
+      - paragraph [ref=e69]: ARQUITECTURA CORPORATIVA
+      - heading [level=2] [ref=e70]:
+        - text: Dos unidades.
+        - emphasis [ref=e71]: Una compañía.
+      - paragraph [ref=e72]: Ciencia que desarrolla. Tecnología que escala. Soluciones que transforman mercados.
+      - generic [ref=e73]:
+        - article [ref=e74]:
+          - generic [ref=e75]: UNIDAD 01
+          - heading "LAB" [level=3] [ref=e76]
+          - heading "Investigación, desarrollo e innovación" [level=4] [ref=e77]
+          - paragraph [ref=e78]: Bioprospección, formulación y validación científica que alimenta cada producto de la compañía.
+          - list [ref=e79]:
+            - listitem [ref=e80]: Bioprospección inteligente
+            - listitem [ref=e81]: Formulación avanzada
+            - listitem [ref=e82]: Validación científica
+            - listitem [ref=e83]: Innovación continua
+          - img "Laboratorio InnoCaps" [ref=e84]
+        - article [ref=e85]:
+          - generic [ref=e86]: UNIDAD 02
+          - heading "BIO" [level=3] [ref=e87]
+          - heading "Escalamiento y comercialización" [level=4] [ref=e88]
+          - paragraph [ref=e89]: Transformamos la ciencia en productos reales, escalables y listos para el mercado.
+          - list [ref=e90]:
+            - listitem [ref=e91]: Prototipos
+            - listitem [ref=e92]: Escalado
+            - listitem [ref=e93]: Ventas B2B
+          - img "Biorreactor" [ref=e94]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - heading "WiBío" [level=3] [ref=e97]
+          - paragraph [ref=e98]:
+            - text: Portafolio de soluciones B2B · ingredientes funcionales microencapsulados para nutrición, alimentos, cuidado personal, suplementos y más.
+            - strong [ref=e99]: Ciencia lista para la industria.
+        - img "Productos WiBio" [ref=e100]
+    - generic [ref=e102]:
+      - paragraph [ref=e103]: EL PROBLEMA
+      - heading [level=2] [ref=e104]:
+        - text: La ciencia de ingredientes funcionales
+        - emphasis [ref=e105]: no llega al mercado
+      - generic [ref=e106]:
+        - article [ref=e107]:
+          - generic [ref=e108]: "1"
+          - heading [level=3] [ref=e109]:
+            - text: Biodiversidad
+            - emphasis [ref=e110]: desaprovechada
+          - paragraph [ref=e111]: Miles de compuestos naturales con potencial funcional nunca se convierten en producto.
+        - article [ref=e112]:
+          - generic [ref=e113]: "2"
+          - heading [level=3] [ref=e114]:
+            - text: Baja
+            - emphasis [ref=e115]: biodisponibilidad
+          - paragraph [ref=e116]: Los bioactivos pierden estabilidad y eficacia antes de llegar al consumidor.
+        - article [ref=e117]:
+          - generic [ref=e118]: "3"
+          - heading [level=3] [ref=e119]:
+            - text: Innovación
+            - emphasis [ref=e120]: sin evidencia
+          - paragraph [ref=e121]: El mercado innova en formas y empaques, no en el fondo científico que demuestra eficacia.
+        - article [ref=e122]:
+          - generic [ref=e123]: "4"
+          - heading [level=3] [ref=e124]:
+            - text: Brecha
+            - emphasis [ref=e125]: ciencia ↔ industria
+          - paragraph [ref=e126]: Entre el hallazgo de laboratorio y el escalamiento industrial hay un vacío que casi nadie cruza.
+      - paragraph [ref=e127]: En InnoCaps cerramos estas brechas con ciencia aplicada y encapsulación de precisión.
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - paragraph [ref=e130]: NUESTRA SOLUCIÓN
+        - heading [level=2] [ref=e131]:
+          - text: Plataforma integrada
+          - emphasis [ref=e132]: de precisión
+        - paragraph [ref=e133]: De la biodiversidad al ingrediente escalable — mira cómo se arma la cápsula a medida que avanzas.
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - generic [ref=e137]: "01"
+          - heading "Bioprospección" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Identificación de matrices para bio-producción de compuestos funcionales.
+          - list [ref=e140]:
+            - listitem [ref=e141]: Selección inteligente
+            - listitem [ref=e142]: Biodiversidad colombiana
+            - listitem [ref=e143]: Trazabilidad de origen
+            - listitem [ref=e144]: Datos y ciencia aplicada
+        - generic [ref=e146]:
+          - generic [ref=e147]: "02"
+          - heading "Encapsulación" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Nano-microencapsulación de precisión para protección, liberación y biodisponibilidad.
+          - list [ref=e150]:
+            - listitem [ref=e151]: Protección avanzada
+            - listitem [ref=e152]: Liberación controlada
+            - listitem [ref=e153]: Mayor estabilidad
+            - listitem [ref=e154]: Mejor biodisponibilidad
+        - generic [ref=e156]:
+          - generic [ref=e157]: "03"
+          - heading "Fermentación" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Biofábricas microbianas y/o vegetales para moléculas de interés.
+          - list [ref=e160]:
+            - listitem [ref=e161]: Cepas y cultivos seleccionados
+            - listitem [ref=e162]: Fermentación eficiente
+            - listitem [ref=e163]: Parámetros controlados
+            - listitem [ref=e164]: Calidad y reproducibilidad
+        - generic [ref=e166]:
+          - generic [ref=e167]: "04"
+          - heading "Escalamiento" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Producción industrial con aliados estratégicos y evidencia científica.
+          - list [ref=e170]:
+            - listitem [ref=e171]: Red de aliados especializados
+            - listitem [ref=e172]: Escalamiento eficiente
+            - listitem [ref=e173]: Evidencia científica
+            - listitem [ref=e174]: Soluciones listas para el mercado
+    - generic [ref=e176]:
+      - paragraph [ref=e177]: LA PRUEBA · CASO REAL
+      - heading [level=2] [ref=e178]:
+        - text: Encapsulación de
+        - emphasis [ref=e179]: bioactivo funcional
+      - generic [ref=e180]:
+        - article [ref=e181]:
+          - heading "Eficacia antioxidante" [level=3] [ref=e182]
+          - heading "Resultados instrumentales" [level=4] [ref=e183]
+          - paragraph [ref=e184]: El 30% de la dosis del material nanoencapsulado alcanza el mismo efecto que el 100% del material libre.
+          - img [ref=e185]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: "0"
+              - generic [ref=e190]: "25"
+              - generic [ref=e191]: "50"
+              - generic [ref=e192]: "75"
+              - generic [ref=e193]: "100"
+              - generic [ref=e194]: "1"
+              - generic [ref=e195]: "10"
+              - generic [ref=e196]: 30%
+              - generic [ref=e197]: 100%
+            - generic [ref=e201]: 100% eficacia
+          - generic [ref=e202]:
+            - generic [ref=e203]: Nanoencapsulado
+            - generic [ref=e205]: Material libre
+          - generic [ref=e207]:
+            - generic [ref=e208]: 0%
+            - generic [ref=e209]: "% mejora en eficacia · mismo efecto, menor dosis"
+          - paragraph [ref=e210]: "Método: DPPH · ABTS · CRAC. Resultados por análisis instrumental en laboratorio."
+        - article [ref=e211]:
+          - heading "Estabilidad y liberación" [level=3] [ref=e212]
+          - heading "Pruebas gastrointestinales in vitro" [level=4] [ref=e213]
+          - paragraph [ref=e214]: El nanoencapsulado protege el compuesto en condiciones gástricas y asegura una liberación eficaz en el intestino.
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - heading "Estabilidad gástrica (compuesto remanente)" [level=5] [ref=e217]
+              - generic [ref=e218]:
+                - generic [ref=e219]: Compuesto libre
+                - emphasis [ref=e221]: 20%
+              - generic [ref=e222]:
+                - generic [ref=e223]: Nanoencapsulado
+                - emphasis [ref=e225]: ≥95%
+            - generic [ref=e226]:
+              - heading "Liberación intestinal (compuesto liberado)" [level=5] [ref=e227]
+              - generic [ref=e228]:
+                - generic [ref=e229]: Compuesto libre
+                - emphasis [ref=e231]: 25%
+              - generic [ref=e232]:
+                - generic [ref=e233]: Nanoencapsulado
+                - emphasis [ref=e235]: ≥85%
+          - paragraph [ref=e239]: Protección + liberación eficaz. El nanoencapsulado mantiene la estabilidad en el estómago y libera el compuesto de manera eficaz en el intestino.
+          - paragraph [ref=e240]: Modelo in vitro dinámico · análisis por HPLC-UV · promedio de 3 réplicas independientes.
+    - generic [ref=e242]:
+      - paragraph [ref=e243]: PORTAFOLIO EN DESARROLLO
+      - heading [level=2] [ref=e244]:
+        - text: Nuestro
+        - emphasis [ref=e245]: Pipeline
+      - paragraph [ref=e246]: Tres líneas de innovación que avanzan desde la ciencia hasta ingredientes listos para el mercado.
+      - generic [ref=e247]:
+        - article [ref=e248]:
+          - generic [ref=e249]: MICROBIOME SERIES · TRL 2
+          - list [ref=e250]:
+            - listitem [ref=e251]: ▸ Nuevos ingredientes
+            - listitem [ref=e252]: ▸ Posbióticos
+          - paragraph [ref=e253]: Pipeline en exploración y conceptualización.
+        - article [ref=e254]:
+          - generic [ref=e255]: MICROBIOME SERIES · TRL 4
+          - list [ref=e256]:
+            - listitem [ref=e257]: ▸ Consorcios microbianos
+            - listitem [ref=e258]: ▸ Pre – Pro – Pos bióticos de precisión
+          - paragraph [ref=e259]: Caracterización de cepas y posbióticos en curso.
+        - article [ref=e260]:
+          - generic [ref=e261]: SCIENCE SERIES · TRL 6
+          - list [ref=e262]:
+            - listitem [ref=e263]: ▸ Basados en curcuminoides
+            - listitem [ref=e264]: ▸ Nitratos cardiovasculares
+            - listitem [ref=e265]: ▸ Antioxidantes hepatoprotectores
+            - listitem [ref=e266]: ▸ Ácidos orgánicos digestivos
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - generic [ref=e269]: "1"
+          - generic [ref=e270]: "2"
+          - generic [ref=e271]: "3"
+          - generic [ref=e272]: "4"
+          - generic [ref=e273]: "5"
+          - generic [ref=e274]: "6"
+          - generic [ref=e275]: "7"
+          - generic [ref=e276]: "8"
+          - generic [ref=e277]: "9"
+        - generic [ref=e278]:
+          - generic [ref=e279]: INVESTIGACIÓN
+          - generic [ref=e280]: DESARROLLO
+          - generic [ref=e281]: VALIDACIÓN
+          - generic [ref=e282]: MERCADO
+      - paragraph [ref=e283]: Aquí se construye un flujo continuo de innovación que se valida paso a paso.
+    - generic [ref=e285]:
+      - paragraph [ref=e286]: MODELO DE NEGOCIO
+      - heading [level=2] [ref=e287]:
+        - text: Tres vías de ingreso B2B
+        - emphasis [ref=e288]: con potencial internacional
+      - paragraph [ref=e289]: Flexibles, complementarias y adaptadas a cada tipo de aliado o cliente.
+      - generic [ref=e290]:
+        - article [ref=e291]:
+          - generic [ref=e292]: "01"
+          - heading "Ingredientes funcionales" [level=3] [ref=e293]
+          - paragraph [ref=e294]: Desarrollo y venta de ingredientes simpbióticos propios, listos para formulación (marcas B2B InnoCaps – Bio).
+          - list [ref=e295]:
+            - listitem [ref=e296]: Ingredientes validados
+            - listitem [ref=e297]: Listos para formulación
+            - listitem [ref=e298]: Escalables globalmente
+        - article [ref=e299]:
+          - generic [ref=e300]: "02"
+          - heading "Desarrollo tecnológico" [level=3] [ref=e301]
+          - paragraph [ref=e302]: Servicios I+D+i de fermentación, encapsulación y caracterización para terceros (InnoCaps – Lab to Bio).
+          - list [ref=e303]:
+            - listitem [ref=e304]: Soluciones a medida
+            - listitem [ref=e305]: Tecnología aplicada
+            - listitem [ref=e306]: Co-desarrollo ágil
+        - article [ref=e307]:
+          - generic [ref=e308]: "03"
+          - heading "Licenciamiento" [level=3] [ref=e309]
+          - paragraph [ref=e310]: Transferencia tecnológica y licencias de procesos y formulaciones de la plataforma InnoCaps (Lab).
+          - list [ref=e311]:
+            - listitem [ref=e312]: Modelos flexibles
+            - listitem [ref=e313]: Regalías escalables
+            - listitem [ref=e314]: Alianzas estratégicas
+      - heading "¿Dónde encaja cada cliente?" [level=3] [ref=e315]
+      - generic [ref=e316]:
+        - generic [ref=e317]: Nutrición funcional
+        - generic [ref=e318]: Salud y suplementos
+        - generic [ref=e319]: Alimentos y bebidas
+        - generic [ref=e320]: Cosmética y cuidado
+        - generic [ref=e321]: Salud animal y veterinaria
+        - generic [ref=e322]: Agronegocios y biotecnología
+        - generic [ref=e323]: Farmacéutica y OTC
+    - generic [ref=e325]:
+      - paragraph [ref=e326]: COMPETENCIA Y POR QUÉ NOSOTROS
+      - heading [level=2] [ref=e327]:
+        - text: Conocemos a los gigantes —
+        - emphasis [ref=e328]: competimos por un espacio que ellos no ocupan
+      - generic [ref=e329]:
+        - article [ref=e330]:
+          - heading "El campo de juego" [level=3] [ref=e331]
+          - generic [ref=e332]:
+            - generic [ref=e333]: CHR·HANSEN
+            - generic [ref=e334]: novonesis
+            - generic [ref=e335]: DSM-FIRMENICH
+            - generic [ref=e336]: KERRY
+            - generic [ref=e337]: ADM
+            - generic [ref=e338]: Cargill
+          - paragraph [ref=e339]:
+            - text: Escala global, portafolios cerrados y estandarizados, ciclos largos, poco acceso a biodiversidad local y baja flexibilidad para
+            - strong [ref=e340]: co-desarrollo a la medida
+            - text: .
+        - article [ref=e341]:
+          - heading "Nuestro sistema táctico" [level=3] [ref=e342]
+          - list [ref=e343]:
+            - listitem [ref=e344]: "Integración vertical: bioprospección + biofabricación + encapsulación en un solo flujo."
+            - listitem [ref=e345]: Acceso a biodiversidad colombiana como fuente de activos diferenciados.
+            - listitem [ref=e346]: Co-desarrollo ágil y a la medida para marcas B2B, con evidencia científica propia.
+            - listitem [ref=e347]: Modelo capital-ligero vía red de aliados especializados.
+      - generic [ref=e348]:
+        - generic [ref=e349]: Flexibilidad realpara co-innovar
+        - generic [ref=e350]: Ciencia aplicaday basada en resultados
+        - generic [ref=e351]: Tiempos de desarrollomás cortos y adaptables
+        - generic [ref=e352]: Biodiversidadúnica y sostenible
+        - generic [ref=e353]: Soluciones a la medidadel desafío y del mercado
+      - heading "Tracción real — co-desarrollando con evidencia científica" [level=3] [ref=e354]
+      - generic [ref=e355]:
+        - generic [ref=e356]: Nacional de Chocolates
+        - generic [ref=e357]: Arum
+        - generic [ref=e358]: Biotecno
+        - generic [ref=e359]: Aitia
+        - generic [ref=e360]: Colorquímica
+    - generic [ref=e362]:
+      - paragraph [ref=e363]: NUESTRO MODELO DE COLABORACIÓN
+      - heading [level=2] [ref=e364]:
+        - text: "Cómo trabajamos:"
+        - emphasis [ref=e365]: tres niveles de relación
+      - paragraph [ref=e366]: Flexibilidad y escalabilidad según tus necesidades.
+      - generic [ref=e367]:
+        - article [ref=e368]:
+          - text: NIVEL 1
+          - heading "Proyecto Piloto" [level=3] [ref=e369]
+          - paragraph [ref=e370]: Desarrollo conjunto y prueba de concepto en un área específica. Formulación de productos WiBio adaptados a tus necesidades.
+          - generic [ref=e371]:
+            - generic [ref=e372]: ENTREGABLE
+            - text: Producto piloto validado con desempeño comprobado.
+        - article [ref=e373]:
+          - text: NIVEL 2
+          - heading "Alianza Tecnológica" [level=3] [ref=e374]
+          - paragraph [ref=e375]: Colaboración estructurada en I+D+i para desarrollar productos WiBio de mayor valor diferencial. Formulación, optimización y escalamiento.
+          - generic [ref=e376]:
+            - generic [ref=e377]: ENTREGABLE
+            - text: Producto optimizado listo para su escalamiento.
+        - article [ref=e378]:
+          - text: NIVEL 3
+          - heading "Suministro de Productos WiBio" [level=3] [ref=e379]
+          - paragraph [ref=e380]: Suministro continuo de productos WiBio desarrollados para su marca, portafolio o canal. Producción escalada, control de calidad y soporte técnico.
+          - generic [ref=e381]:
+            - generic [ref=e382]: ENTREGABLE
+            - text: Suministro confiable con calidad garantizada.
+      - paragraph [ref=e383]: "Desde una idea hasta el mercado, te acompañamos en cada paso del camino. No invertimos en tu empresa: tú accedes a productos WiBio listos para transformar tu negocio."
+    - generic [ref=e385]:
+      - paragraph [ref=e386]: EQUIPO
+      - heading [level=2] [ref=e387]:
+        - text: Nuestros
+        - emphasis [ref=e388]: profesionales
+      - paragraph [ref=e389]: Un equipo multidisciplinario de expertos comprometidos con la excelencia científica y la innovación.
+      - generic [ref=e390]:
+        - article [ref=e391]:
+          - generic [ref=e392]: EC
+          - heading "Elkin Dario Castellón" [level=3] [ref=e393]
+          - generic [ref=e394]: CEO · Director Científico Fundador
+          - paragraph [ref=e395]: Químico, Magíster en Química Analítica y Doctor en Agroquímica.
+        - article [ref=e396]:
+          - generic [ref=e397]: NM
+          - heading "Nathalia Marín" [level=3] [ref=e398]
+          - generic [ref=e399]: Doctora en Ciencia e Ingeniería de Materiales
+          - paragraph [ref=e400]: Especialista en nanomateriales y caracterización avanzada.
+        - article [ref=e401]:
+          - generic [ref=e402]: CC
+          - heading "Carolina Chegwin Angarita" [level=3] [ref=e403]
+          - generic [ref=e404]: Doctora en Ciencias Química
+          - paragraph [ref=e405]: Química, magíster y Doctora en Ciencias Química.
+        - article [ref=e406]:
+          - generic [ref=e407]: SN
+          - heading "Sandra Navarro" [level=3] [ref=e408]
+          - generic [ref=e409]: Doctora en Biotecnología
+          - paragraph [ref=e410]: Experta en procesos biotecnológicos y fermentación.
+        - article [ref=e411]:
+          - generic [ref=e412]: DV
+          - heading "Diego F. Villanueva Mejía" [level=3] [ref=e413]
+          - generic [ref=e414]: Doctor en Biotecnología
+          - paragraph [ref=e415]: Investigador en bioprocesos y optimización.
+        - article [ref=e416]:
+          - generic [ref=e417]: MA
+          - heading "María Alejandra Arango" [level=3] [ref=e418]
+          - generic [ref=e419]: Biotecnóloga y Magíster en Ingeniería
+          - paragraph [ref=e420]: Énfasis en procesos biotecnológicos.
+        - article [ref=e421]:
+          - generic [ref=e422]: CS
+          - heading "Carlos Salazar" [level=3] [ref=e423]
+          - generic [ref=e424]: Ingeniero Electrónico y Matemático
+          - paragraph [ref=e425]: Especialista en modelado computacional y automatización.
+    - generic [ref=e427]:
+      - heading [level=2] [ref=e428]:
+        - text: Más que un proveedor, somos tu
+        - emphasis [ref=e429]: aliado estratégico
+        - text: en I+D+i
+      - paragraph [ref=e430]: Gracias por confiar en la ciencia como motor de transformación. Construyamos juntos el futuro de la nutrición y el bienestar.
+      - generic [ref=e431]:
+        - generic [ref=e432]:
+          - heading "Comienza tu consulta" [level=3] [ref=e433]
+          - generic [ref=e434]:
+            - text: Nombre
+            - textbox "Nombre" [ref=e435]:
+              - /placeholder: Tu nombre
+          - generic [ref=e436]:
+            - text: Correo
+            - textbox "Correo" [ref=e437]:
+              - /placeholder: tu@empresa.com
+          - generic [ref=e438]:
+            - text: Cuéntanos tu reto
+            - textbox "Cuéntanos tu reto" [ref=e439]:
+              - /placeholder: ¿Qué ingrediente quieres proteger, potenciar o escalar?
+          - button "Enviar consulta" [ref=e440] [cursor=pointer]
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - generic [ref=e443]: WEB
+            - link "www.innocaps.com.co" [ref=e444] [cursor=pointer]:
+              - /url: https://www.innocaps.com.co
+            - link "contacto@innocaps.com.co" [ref=e445] [cursor=pointer]:
+              - /url: mailto:contacto@innocaps.com.co
+          - generic [ref=e446]:
+            - generic [ref=e447]: CEO & FOUNDER
+            - generic [ref=e448]: Elkin Dario Castellón
+            - link "elkin.castellon@innocaps.com.co" [ref=e449] [cursor=pointer]:
+              - /url: mailto:elkin.castellon@innocaps.com.co
+          - paragraph [ref=e453]: Estamos listos para co-crear, innovar y entregar productos WiBio que impulsen tu portafolio y tu impacto.
+  - contentinfo [ref=e454]:
+    - generic [ref=e455]:
+      - link "InnoCaps" [ref=e456] [cursor=pointer]:
+        - /url: "#top"
+      - paragraph [ref=e458]: Biotecnología y encapsulación de precisión · Ciencia que protege. Innovación que transforma. Impacto que perdura.
+      - generic [ref=e459]: © 2026 InnoCaps
